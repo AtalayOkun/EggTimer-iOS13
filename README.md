@@ -1,27 +1,51 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+EggTimer-iOS13
 
-# Egg Timer
+A simple iOS egg timer app with customizable cooking times, progress tracking, and notifications. Perfect for anyone who likes their eggs just right! 🥚
 
-## Our Goal
+Features
 
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
+Soft, Medium, Hard egg timers
 
-## What You'll Make
+Progress bar shows the cooking progress
 
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
+Local notifications when your egg is ready
 
-## What you will learn
+Sound alarm when time is up
 
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
+Tap anywhere to reset after completion
 
+Clean and simple iOS13 UI
 
+How to Use
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+Open the app
 
-![End Banner](Documentation/readme-end-banner.png)
+Select your preferred egg hardness: Soft, Medium, or Hard
+
+Watch the progress bar as your egg cooks
+
+Receive a notification and sound when your egg is ready
+
+Tap anywhere on the screen (except buttons) to reset the title
+
+Technologies Used
+
+UIKit
+
+AVFoundation for audio playback
+
+UserNotifications for local notifications
+
+Swift 5 / iOS 13+
+
+Notes
+
+Ensure notification permissions are granted to receive alerts
+
+The sound alarm stops automatically after 5 seconds
+
+Contribution
+
+This is my custom version of Angela Yu’s original EggTimer from her iOS course.
+Feel free to fork, tweak, or experiment!
 
